@@ -1,4 +1,4 @@
-manifest:
+п»їmanifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
@@ -14,7 +14,7 @@ manifest:
     - name: pmw3389_zephyr_driver
       remote: teamspatzenhirn
       revision: main
-      path: zmk-pmw3389-driver  # путь, куда клонируется репа (можно любое имя)
+      path: zmk-pmw3389-driver  # РїСѓС‚СЊ, РєСѓРґР° РєР»РѕРЅРёСЂСѓРµС‚СЃСЏ СЂРµРїР° (РјРѕР¶РЅРѕ Р»СЋР±РѕРµ РёРјСЏ)
 
   self:
     path: config

@@ -2,15 +2,19 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
+    - name: teamspatzenhirn
+      url-base: https://github.com/teamspatzenhirn
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: zmk-pmw3389-driver
-      remote: inorichi
+
+    - name: pmw3389_zephyr_driver
+      remote: teamspatzenhirn
       revision: main
+      path: zmk-pmw3389-driver  # путь, куда клонируется репа (можно любое имя)
+
   self:
     path: config
